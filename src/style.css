@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Inter', sans-serif;
+
+}
+.header-container {
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(34, 35, 43);
+}
+.react-logo {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
+.react-facts {
+    padding: 5px;
+    margin-right: auto;
+    color: rgb(105, 233, 250);
+}
+.react-course {
+    padding: 10px;
+    font-weight: 400;
+
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 57px 27px;
+    width: 100%;
+    height: 100vh;
+    background: url(./images/react-icon-large.png);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: right;
+    background-color: #282D35;
+    
+}
+.main-header {
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+.point-list {
+    margin-left: 40px;
+    line-height: 30px;
+}
+.point-list li::marker {
+    color: rgb(105, 233, 250);
+    font-size: 1.3em;
+}
